@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="sudoku_1" category="opl">
+            			
+            <ref name="sudoku_1.dat" type="data">
+			</ref>
+            			
+            <ref name="sudoku_1.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="sudoku_2" category="opl">
+            			
+            <ref name="sudoku_2.dat" type="data">
+			</ref>
+            			
+            <ref name="sudoku_2.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>

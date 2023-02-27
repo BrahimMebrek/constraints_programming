@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="opl.launchType">
+    <stringAttribute key="opl.debugModel.ATTR_ELEMENT_ID" value="=alliance_de\fensiveR\Run Con\figu\rationsralliance_de\fensive"/>
+    <stringAttribute key="opl.debugModel.ATTR_PROJECT" value="alliance_defensive"/>
+    <stringAttribute key="opl.debugModel.ATTR_RUN_CONFIG" value="alliance_defensive"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/alliance_defensive"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+</launchConfiguration>

@@ -1,0 +1,14 @@
+using CP;
+
+int nb_sommet = ...;
+range sommet = 1..nb_sommet;
+
+int seuil[sommet] = ...;
+
+{int} edge[sommet] = ...;
+
+dvar int x[sommet] in 1..2;
+
+dvar int val_max in 1..4;
+
+maximize 

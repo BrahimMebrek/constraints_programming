@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="opl.launchType">
+    <stringAttribute key="opl.debugModel.ATTR_ELEMENT_ID" value="=con\fé\rences2R\Run Con\figu\rationsrcon\fé\rence1"/>
+    <stringAttribute key="opl.debugModel.ATTR_PROJECT" value="conférences2"/>
+    <stringAttribute key="opl.debugModel.ATTR_RUN_CONFIG" value="conférence1"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/conférences2"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+</launchConfiguration>

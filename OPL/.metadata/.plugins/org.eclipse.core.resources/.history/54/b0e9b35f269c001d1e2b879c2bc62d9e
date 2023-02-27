@@ -1,0 +1,37 @@
+using CP;
+
+// Nombre de femme et d'homme
+int nb_femme = ...;
+int nb_homme = ...;
+
+// Range des femmmes et des hommes
+range femme = 1..nb_femme;
+range homme = 1..nb_homme;
+
+// Nom des femmes et des hommes
+string nom_femme[femme] = ...;
+string nom_homme[homme] = ...;
+
+// Ranking des hommes par les femmes et des femmes par les hommes
+tuple couples{int fe; int ho; int rf; int rh;}
+{couples} couple = ...;
+
+// Variable de décision binaire, x[femme][homme] = 1 si la femme est mariée à l'homme, 0 sinon
+dvar boolean x[femme][homme];
+
+subject to {
+	forall(f in femme) sum(<fe, ho, rf, rh> in couple) x[f][h] == 1;
+	forall(h in homme) sum(<fe, ho, rf, rh> in couple) x[f][h] == 1;	
+
+}
+
+execute {
+  for(var f in femme) {
+    for(var h in homme) {
+    	if(x[f][h] == 1)
+    		writeln(nom_femme[f], " (", f, ") est mariée avec ", nom_homme[h], " (", h, ")");
+   		}    	
+    }
+
+}
+

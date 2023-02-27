@@ -1,0 +1,65 @@
+using CP;
+
+int n = 3;
+
+tuple woman {
+    int id;
+    {int} preference;
+}
+
+tuple man {
+    int id;
+    {int} preference;
+}
+
+{woman} women = {
+    <1, {2, 3, 1}>,
+    <2, {3, 1, 2}>,
+    <3, {1, 2, 3}>
+};
+
+{man} men= {
+    <1, {2, 3, 1}>,
+    <2, {3, 1, 2}>,
+    <3, {1, 2, 3}>
+};
+
+dvar int x[women][men];
+
+maximize sum(w in women, m in men) x[w][m];
+
+subject to {
+    forall (w in women, m in men)
+        x[w][m] <= 1;
+    forall (w in women)
+        sum(m in men) x[w][m] == 1;
+    forall (m in men)
+        sum(w in women) x[w][m] == 1;
+	forall (w in women) {
+	    forall (i in 1..n) {
+	        forall (j in i+1..n) {
+	            x[w][w.preference[i-1]] + x[w][w.preference[j-1]] <= 1;
+	            x[w.preference[i-1]][w] + x[w.preference[j-1]][w] <= 1;
+	        }
+	    }
+	}
+	
+	forall (m in men) {
+	    forall (i in 1..n) {
+	        forall (j in i+1..n) {
+	            x[m.preference[i-1]][m] + x[m.preference[j-1]][m] <= 1;
+	            x[m][m.preference[i-1]] + x[m][m.preference[j-1]] <= 1;
+	        }
+	    }
+	}
+}
+
+execute {
+    writeln("Solution :");
+    for (w in women) {
+        for (m in men) {
+            if (x[w][m].solution() == 1)
+                writeln(w.id + " -> " + m.id);
+        }
+    }
+}

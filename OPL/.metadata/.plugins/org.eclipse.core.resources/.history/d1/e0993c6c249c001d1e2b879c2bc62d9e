@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="mariage_stable_1" category="opl">
+            			
+            <ref name="mariage_stable.mod" type="model">
+			</ref>
+            			
+            <ref name="mariage_stable.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="mariage_stable_couple" category="opl">
+		</config>
+        	
+    </configs>
+    	
+
+</project>

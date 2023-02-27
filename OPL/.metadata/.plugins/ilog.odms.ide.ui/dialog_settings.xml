@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="IloNewOplProjectWizard">
+		<item key="IloNewOplProjectWizard.STORE_ROOT_DIRECTORY" value="C:\Users\dell\Desktop\Etudes\Programmation par contraintes\OPL"/>
+	</section>
+	<section name="IloNewRunConfigWizard">
+		<item key="IloNewRunConfigWizard.STORE_SET_AS_DEFAULT" value="false"/>
+	</section>
+	<section name="OplSearchPage">
+		<item key="CASE_SENSITIVE" value="false"/>
+		<item key="HISTORY_SIZE" value="2"/>
+		<section name="HISTORY0">
+			<item key="searchFor" value="0"/>
+			<item key="scope" value="0"/>
+			<item key="pattern" value="Alice"/>
+			<item key="limitTo" value="2"/>
+			<item key="isCaseSensitive" value="false"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY1">
+			<item key="searchFor" value="0"/>
+			<item key="scope" value="0"/>
+			<item key="pattern" value="0"/>
+			<item key="limitTo" value="2"/>
+			<item key="isCaseSensitive" value="false"/>
+			<list key="workingSets">
+			</list>
+		</section>
+	</section>
+</section>
