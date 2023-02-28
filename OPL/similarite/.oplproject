@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="similarity_1_max" category="opl">
+            			
+            <ref name="similarity_1_max.mod" type="model">
+			</ref>
+            			
+            <ref name="similarity.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="similarity_2_min" category="opl">
+            			
+            <ref name="similarity_2_min.mod" type="model">
+			</ref>
+            			
+            <ref name="similarity.dat" type="data">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>

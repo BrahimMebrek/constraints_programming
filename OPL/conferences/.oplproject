@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="conferences" category="opl">
+            			
+            <ref name="conferences.mod" type="model">
+			</ref>
+            			
+            <ref name="conferences.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="conferences_max" category="opl">
+            			
+            <ref name="confrerence_max.mod" type="model">
+			</ref>
+            			
+            <ref name="conferences.dat" type="data">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>

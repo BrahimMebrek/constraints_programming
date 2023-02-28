@@ -1,3 +1,14 @@
+/*
+	It is a kind of puzzle.
+	
+	It takes the form of a 9 x 9 grid composed of nine 3 x 3 sub-grids (called regions or blocks or boxes). 
+	
+	Some of the squares are already filled in. 
+	
+	The goal of the game is to fill in the grid, putting one number per square, 
+		so that each column, row and region contains only once each number from 1 to 9.
+*/
+
 using CP;
 
 // Define the number of digits
@@ -20,7 +31,6 @@ int data[domain][domain]=...;
 dvar int x[domain, domain] in domain ;
 
 subject to {
-  	
   	// Constraints to initially fill the sudoku
 	forall(i, j in domain) if(data[i, j] != 0) x[i, j] == data[i, j];
 

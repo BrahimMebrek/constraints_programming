@@ -1,3 +1,10 @@
+/*
+	The n queens problem involves placing n chess queens on an n x n chessboard 
+		in a way that no two queens threaten each other. 
+		
+	This means that no two queens should be placed on the same row, column, or diagonal.
+*/
+
 using CP;
 
 // Define the number of queens

@@ -1,22 +1,33 @@
+/*
+	It is a kind of puzzle.
+	
+	It takes the form of a 9 x 9 grid composed of nine 3 x 3 sub-grids (called regions or blocks or boxes). 
+	
+	Some of the squares are already filled in. 
+	
+	The goal of the game is to fill in the grid, putting one number per square, 
+		so that each column, row and region contains only once each number from 1 to 9.
+*/
+
 using CP;
 
-// Declare the number of digits
+// Define the number of digits
 int nb_digits = 9;
 
-// Declare the range of rows and columns
+// Define the range of rows and columns
 range domain = 1..nb_digits;
 
-// Declare subsets that will be used later on constraints
+// Define subsets that will be used later for the boxes constraints
 {int} subset_1 = {1,2,3};
 {int} subset_2 = {4,5,6};
 {int} subset_3 = {7,8,9};
 
-// Declare the initial sudoku to fill as a tuple :
+// Define the initial sudoku to fill as a tuple :
 //	tuple{row; colonne; value} with row, column and value between 1 and 9
 tuple values {int row; int col; int val;} 
 {values} data = ...;
 
-// Decision variables as integers :
+// Define decision variables as integers :
 //  x[row][colonne] = value between 1 and 9
 dvar int x[domain][domain] in domain ;
 
