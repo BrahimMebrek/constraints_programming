@@ -43,3 +43,12 @@ subject to {
 	allDifferent(all(i in subset_2, j in subset_3) x[i,j]);
 	allDifferent(all(i in subset_3, j in subset_3) x[i,j]);
 }
+
+execute {
+	for(var i in domain) {
+	  for(var j in domain){
+		write(" ", x[i][j]); 	
+	  }
+	  writeln();
+	}  
+}
