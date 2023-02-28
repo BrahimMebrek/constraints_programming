@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Affectation&apos; to &apos;affectation_taches&apos;" description="Rename resource &apos;Affectation&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Affectation" name="affectation_taches" stamp="1672594460888" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;affectation_taches&apos; to &apos;affectation_tache&apos;" description="Rename resource &apos;affectation_taches&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/affectation_taches" name="affectation_tache" stamp="1672594532138" updateReferences="true"/>
-</session>
