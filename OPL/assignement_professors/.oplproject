@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="assignement_lists" category="opl">
+            			
+            <ref name="assignement_lists.mod" type="model">
+			</ref>
+            			
+            <ref name="assignement_lists.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="assignement_tuples" category="opl">
+            			
+            <ref name="assignement_tuples.mod" type="model">
+			</ref>
+            			
+            <ref name="assignement_tuples.dat" type="data">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>

@@ -1,0 +1,9 @@
+nb_professors = 4;
+nb_classes = 6;
+
+associations = [
+	{1,2,4,6},
+	{2,3,5},
+	{3,4},
+	{1,2,3,5,6}
+];

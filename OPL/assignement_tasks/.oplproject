@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="false" name="assignement_binary_tuples" category="opl">
+            			
+            <ref name="assignement_tuples.dat" type="data">
+			</ref>
+            			
+            <ref name="assignement_binary_tuples.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="true" name="assignement_binary_lists" category="opl">
+            			
+            <ref name="assignement_lists.dat" type="data">
+			</ref>
+            			
+            <ref name="assignement_binary_lists.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="assignement_integer_tuples" category="opl">
+            			
+            <ref name="assignement_tuples.dat" type="data">
+			</ref>
+            			
+            <ref name="assignement_integer_tuples.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="assignement_integer_lists" category="opl">
+            			
+            <ref name="assignement_lists.dat" type="data">
+			</ref>
+            			
+            <ref name="assignement_integer_lists.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>
